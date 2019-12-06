@@ -30,7 +30,7 @@
 	<script src="myscript.js"></script>
 ```
 (se comporta igual que si copias y pegas el código directo en el html)
-```
+
 
 ## JavaScript
   
