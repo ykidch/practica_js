@@ -167,6 +167,7 @@ Element.remove()
 document.addEventListener(evento, funcion)
 Element.addEventListener(evento, funcion)
 ```
+Documentación: [https://developer.mozilla.org/en-US/docs/Web/Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 - **Tiempo**
 ```js
@@ -174,7 +175,7 @@ setTimeout(funcion,ms)
 	setTimeout(function(){ alert("Hello"); }, 3000);
 	setTimeout(miFunction, 3000)
 
-setInterval(function,ms)
+setInterval(funcion,ms)
 
 clearTimeout()
 	var myVar = setTimeout(...)
