@@ -1,8 +1,6 @@
-# lorem ipsum
+# Resumen
 
--HTML, CSS, JS
-
--3 maneras de insertar CSS:
+- **3 maneras de insertar CSS:**
 
 	<tag style="attribute:value; attribute:value; ...">
 
