@@ -1,16 +1,21 @@
 # Resumen
 
 - **3 maneras de insertar CSS:**
-
+```html
 	<tag style="attribute:value; attribute:value; ...">
-
+```
+  
+```html
 	<style>
 		h1 {color:red;...}
 		.class {...}
 		#id {...}
 	</style>
-
+```
+  
+```html
 	<link href="path/to/file" type="text/css" rel="stylesheet">
+```
 
 -Maneras de insertar JS
 	<script>
