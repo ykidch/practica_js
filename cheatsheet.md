@@ -183,6 +183,6 @@ clearTimeout()
 
 clearInterval()
 
-var d = newDate();
+var d = new Date();
 var n = d.getTime();
 ```
