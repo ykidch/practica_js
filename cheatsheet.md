@@ -27,15 +27,18 @@
 ```
   
 ```html
-	<script src="myscript.js"></script>
+	<script src="myscript.js"></script> 
+	<!--(se comporta igual que si copias y pegas el código directo en el html)-->
 ```
-(se comporta igual que si copias y pegas el código directo en el html)
+
 
 
 ## JavaScript
   
-- **Documentación**
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+- **Documentación**  
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
+
 e.g. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 (te dice desde qué versiones de buscadores es compatible)
 
@@ -161,5 +164,24 @@ Element.remove()
 
 - **Eventos**
 ```js
--document.addEventListener(evento, funcion)
+document.addEventListener(evento, funcion)
+Element.addEventListener(evento, funcion)
+```
+
+- **Tiempo**
+```js
+setTimeout(funcion,ms)
+	setTimeout(function(){ alert("Hello"); }, 3000);
+	setTimeout(miFunction, 3000)
+
+setInterval(function,ms)
+
+clearTimeout()
+	var myVar = setTimeout(...)
+	clearTimeout(myVar)
+
+clearInterval()
+
+var d = newDate();
+var n = d.getTime();
 ```
